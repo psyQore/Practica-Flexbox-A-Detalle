@@ -90,7 +90,7 @@ h2 {
     */
 }
 
-/* 3 - Justify Contentent */
+/* 3 - Justify Contentent Row */
 
 .d-flex-3 {
     display: flex;
@@ -112,3 +112,28 @@ h2 {
     */
 }
 
+/* 4- Justify Contentent Column*/
+
+
+.d-flex-4 {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+    justify-content: space-between;
+
+      /* 
+    justify-content: flex-start; es por defecto
+    no es necesario ponerlo
+
+    Otros justify-content:
+
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+
+
+    */
+}
