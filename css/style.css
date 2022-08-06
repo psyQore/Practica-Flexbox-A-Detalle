@@ -78,7 +78,9 @@ h2 {
 .d-flex-2 {
   display: flex;
   flex-direction: row;
-  /* 
+}
+
+/* 
     display:flex por defecto es "row", 
     no es necesario poner flex-direction: row;
 
@@ -88,15 +90,14 @@ h2 {
     flex-direction: row-reverse;
     flex-direction: column-reverse; 
     */
-}
 
 /* 3 - Justify Contentent Row */
 
 .d-flex-3 {
-    display: flex;
-    justify-content: flex-start;
-
-      /* 
+  display: flex;
+  justify-content: flex-start;
+}
+/* 
     justify-content: flex-start; es por defecto
     no es necesario ponerlo
 
@@ -109,20 +110,18 @@ h2 {
     justify-content: space-evenly;
 
 
-    */
-}
+*/
 
 /* 4- Justify Contentent Column*/
 
-
 .d-flex-4 {
-    display: flex;
-    flex-direction: column;
-    height: 1000px;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
 
-    justify-content: space-between;
-
-      /* 
+  justify-content: space-between;
+}
+/* 
     justify-content: flex-start; es por defecto
     no es necesario ponerlo
 
@@ -136,4 +135,45 @@ h2 {
 
 
     */
+
+/* 5 - Align Items Row */
+
+.d-flex-5 {
+  display: flex;
+  height: 700px;
+
+  align-items: flex-start;
 }
+/* 
+
+    align-items: stretch; es por defecto
+    no es necesario ponerlo
+
+    Otros align-items:
+
+    align-item: flex-start;
+    align-item: flex-end;
+    align-item: center;
+    align-item: stretch;
+    align-item: baseline;
+
+*/
+
+/* 6 - Align Items Coluimn */
+
+.d-flex-6 {
+  display: flex;
+}
+/* 
+  
+    aign-items: stretch; es por defecto
+    no es necesario ponerlo
+  
+    Otros align-items:
+  
+    align-item: flex-start;
+    align-item: flex-end;
+    align-item: center;
+    align-item: stretch;
+  
+*/
