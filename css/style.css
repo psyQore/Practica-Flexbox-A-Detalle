@@ -309,3 +309,23 @@ h2 {
     
           
 */
+
+/* 13 - Flex Shorhand */
+
+.d-flex-13 {
+  display: flex;
+}
+.d-flex-13 .box {
+  flex: 1 0 33.3%;
+}
+
+/* 
+      Flex - Shorthand
+      es una combinacion de:
+      flex-grow, flex-shrink y flex-basis
+      
+      ej:
+      flex: 1 0 33.3%;
+
+            
+  */
