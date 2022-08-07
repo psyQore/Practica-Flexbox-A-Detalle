@@ -205,3 +205,18 @@ h2 {
 
     
   */
+
+/* 8 - Flex Basis */
+
+.d-flex-8 {
+  display: flex;
+}
+.d-flex-8 .box {
+  flex-basis: 33.3%;
+}
+/* 
+    Esta propiedad funciona
+    de los hijos de flex  
+    
+  
+ */
