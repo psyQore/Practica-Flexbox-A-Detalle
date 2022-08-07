@@ -246,6 +246,20 @@ h2 {
     flex-basis 33.3%
     gap: 2rem;
 
-
     
 */
+
+/* 10 - Flex Wrap */
+
+.d-flex-10 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.d-flex-10 .box {
+  flex-basis: 33.3%;
+}
+
+/* 
+
+      
+  */
