@@ -217,6 +217,35 @@ h2 {
 /* 
     Esta propiedad funciona
     de los hijos de flex  
+
+    width: 200px; es forzada
+    flex-basis: se ajusta al contenido de box
     
   
  */
+
+/* 9 - Gap y Calc */
+
+.d-flex-9 {
+  display: flex;
+  gap: 2rem;
+}
+.d-flex-9 .box {
+  flex-basis: 33.3%;
+}
+
+/* 
+
+    gap: 2rem; para añadir separacion de los box
+
+    flex-basis: calc(33.3% - 1rem);
+    ej para realizar operacion del ancho del box
+
+    lo mismo que:
+
+    flex-basis 33.3%
+    gap: 2rem;
+
+
+    
+*/
