@@ -262,4 +262,30 @@ h2 {
 /* 
 
       
+*/
+
+/* 11 - Flex Grow */
+
+.d-flex-11 {
+  display: flex;
+}
+.d-flex-11 .box:nth-child(1) {
+  flex-grow: 2;
+}
+.d-flex-11 .box:nth-child(2) {
+  flex-grow: 1;
+}
+.d-flex-11 .box:nth-child(3) {
+  flex-grow: 1;
+}
+
+/* 
+    Factor de crecimiento:
+
+    El default de flex-glow es 0
+    por eso no crece, toma en 
+    concideracion el ancho del contenido
+    flex-grow: 0
+  
+        
   */
